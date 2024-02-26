@@ -1,0 +1,27 @@
+/* AboutMe.css */
+
+.stars {
+    display: inline-block;
+    font-size: 0; /* Hide the text node */
+  }
+  
+  .star {
+    display: inline-block;
+    width: 20px; /* Adjust the width of each star */
+    height: 20px; /* Adjust the height of each star */
+    background-color: transparent; /* Set the background color of the star */
+    margin-right: 2px; /* Add some spacing between stars */
+  }
+  
+  /* Style the star shape using CSS borders */
+  .star::before {
+    content: '\2605'; /* Unicode character for a star */
+    color: gold; /* Set the color of the star */
+    font-size: 20px; /* Adjust the size of the star */
+  }
+  
+  /* Adjust the color of the star for an empty rating */
+  .star.empty::before {
+    color: #ccc; /* Set the color of the empty star */
+  }
+  

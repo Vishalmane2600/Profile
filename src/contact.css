@@ -1,0 +1,85 @@
+
+.contact-container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: #808DAD;
+  }
+  
+  .left-partition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+  }
+  .left-partition h3{
+    padding: 5px;
+    margin-bottom: 18px;
+  }
+  .left-partition h3 span{
+    color: rgba(255, 166, 0, 0.677);
+  }
+  .right-partition {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+ .right-partition p{
+    font-size: 20px;
+   margin: 20px 20px 20px 0px;
+   cursor: pointer;
+ }
+ .right-partition h3{
+    
+    margin: 20px 20px 20px 0px;
+ }
+  
+  .form-group {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+.form-group input,textarea {
+    width: 25rem;
+    background-color: rgba(34, 34, 34, 0.705);
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .left-partition button {
+    padding: 10px 20px;
+    width: 25rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .social-icons {
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    gap: 20px;
+  }
+  
+  .social-icons svg {
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in; 
+  }
+  .social-icons i:hover{
+    color:rgba(252, 193, 85, 0.772);
+    transform: scale(1.2);
+  }
