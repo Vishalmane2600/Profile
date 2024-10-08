@@ -1,5 +1,5 @@
 import React from 'react';// Import CSS file for styling
-import image from '../vm_logo.jpg';
+import image from '../image.jpg';
 
 
 const TwoPartComponent = () => {
@@ -9,7 +9,7 @@ const TwoPartComponent = () => {
         <div className="two-part-container" >
             <div className="left-part">
                 <div className="moving-text-container">
-                    <h5>Hello,</h5><br></br>
+                    <h5> &mdash; Hello,</h5><br></br>
                    <h2> I'm Vishal Mane </h2><br></br>
                    <p>--- Creative Software Engineer and Full Stack Developer </p>
 

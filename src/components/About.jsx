@@ -5,17 +5,18 @@ import '../star.css';
 const AboutMe = () => {
   return (
     <div className="about-me-content">
-      <div className="left-part-about">
+      {/* <div className="left-part-about">
         <div className="profile">
           <img src={image} alt="Profile" />
         </div>
-      </div>
+      </div> */}
       <div className="right-part-about">
         <div className="right-part-about1">
           <h3>
             <span>&mdash;</span> About Me
           </h3>
           <h2>Vishal Mane</h2>
+
           <p>
             Computer Science Engineer with a strong foundation in Programming,
             Algorithms, and Problem-solving. Having skills in CPP, JAVA, PYTHON
