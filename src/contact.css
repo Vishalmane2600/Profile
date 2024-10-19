@@ -83,3 +83,57 @@
     color:rgba(252, 193, 85, 0.772);
     transform: scale(1.2);
   }
+  @media (max-width: 768px) {
+
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background-color: #0e1630;
+      color: #808DAD;
+      justify-content: center;
+      align-items: center;
+  }
+  .flexdir{
+     width: 100%;
+  }
+  .left-partition{
+    width: 100%;
+  }
+  .form-group input, textarea {
+    width: 33rem;
+    background-color: rgba(34, 34, 34, 0.705);
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+}
+.left-partition button {
+  padding: 10px 20px;
+  width: 33rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.right-partition {
+  width: 100%;
+  padding: 20px;
+}
+.flexdir2{
+  width: 100%;
+}
+.right-partition {
+  height: 400px;
+  width: 100%;
+  padding: 20px;
+}
+.about-me-content {
+  padding: 30px 15px 20px 15px;
+  height: 60vh;
+  display: flex;
+  width: 100%;
+  background-color: #0e1630;
+}
+  }

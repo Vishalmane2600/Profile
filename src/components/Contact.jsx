@@ -5,7 +5,7 @@ const ContactMe = () => {
   return (
     <div className="contact-container">
       <div className="left-partition">
-         <div>
+         <div className="flexdir">
          <h3><span>&mdash;</span> Contact me</h3>
         <form>
           <div className="form-group">
@@ -22,7 +22,7 @@ const ContactMe = () => {
          </div>
       </div>
       <div className="right-partition">
-        <div>
+        <div className="flexdir2">
         <h3>Contact with me </h3>
         <p><i className="fa-solid fa-envelope"></i> vishal12345mane00@gmail.com</p>
         <div className="social-icons">
