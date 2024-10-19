@@ -100,17 +100,28 @@
   .left-partition{
     width: 100%;
   }
-  .form-group input, textarea {
-    width: 33rem;
-    background-color: rgba(34, 34, 34, 0.705);
-    padding: 10px;
-    color: whitesmoke;
-    border-radius: 10px;
-    border: none;
-}
+  
+    .form-group input, textarea {
+      width: 90vw;
+      background-color: rgba(34, 34, 34, 0.705);
+      padding: 10px;
+      color: whitesmoke;
+      border-radius: 10px;
+      border: none;
+  }
+
 .left-partition button {
   padding: 10px 20px;
   width: 33rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.left-partition button {
+  padding: 10px 20px;
+  width: 90vw;
   background-color: #007bff;
   color: #fff;
   border: none;
