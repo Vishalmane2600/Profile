@@ -25,3 +25,14 @@
     color: #ccc; /* Set the color of the empty star */
   }
   
+  @media (max-width: 768px) {
+    #skill-lang {
+      font-weight: 500;
+      font-size: smaller;
+  }
+  .star::before {
+    content: '\2605';
+    color: gold;
+    font-size: 17px;
+}
+}
